@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Playing</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card-left">
+            <div class="sidebar">
+                <div class="profile">
+                    <a href="" class="logo"><img src="./assets/images/Vector.png" alt=""></a>
+                    <a href="./login.html" class="avatar"><img src="./assets//images/avatar.png" alt=""></a>
+                </div>
+                <div class="menu">
+                    <a href="" title="Search"><span class="material-symbols-outlined icon">
+                            search
+                        </span></a>
+                    <a href="" title="Listen" id="active"><span class="material-symbols-outlined icon">
+                            headphones
+                        </span></a>
+                    <a href="" title="Favourite"><span class="material-symbols-outlined icon">
+                            favorite
+                        </span></a>
+                    <a href="" title="List"><span class="material-symbols-outlined icon">
+                            bookmark
+                        </span></a>
+                </div>
+                <div class="setting-logOut">
+                    <a href="" title="Setting"><span class="material-symbols-outlined">
+                            settings
+                        </span></a>
+                    <a href="" title="Log Out"><span class="material-symbols-outlined">
+                            logout
+                        </span></a>
+                </div>
+            </div>
+            <div class="discover">
+                <h1>Discover <br> New music</h1>
+                <div class="top-chart">
+                    <div class="title">
+                        <h3>Top-chart</h3>
+                    </div>
+                    <div class="card-chart">
+                        <div class="item" id="0">
+                            <div class="item-img">
+                                <img src="./assets/images/img1.png" alt="">
+                                <span class="material-symbols-outlined">
+                                    play_circle
+                                </span>
+                            </div>
+                            <div class="name-song">
+                                <h4>OK</h4>
+                                <p>Binz</p>
+                            </div>
+                        </div>
+                        <div class="item" id="1">
+                            <div class="item-img">
+                                <img src="./assets/images/img2.png" alt="">
+                                <span class="material-symbols-outlined">
+                                    play_circle
+                                </span>
+                            </div>
+                            <div class="name-song">
+                                <h4>Waiting For Love</h4>
+                                <p>Avicii</p>
+                            </div>
+                        </div>
+                        <div class="item" id="2">
+                            <div class="item-img">
+                                <img src="./assets/images/img3.png" alt="">
+                                <span class="material-symbols-outlined">
+                                    play_circle
+                                </span>
+                            </div>
+                            <div class="name-song">
+                                <h4>Monsters</h4>
+                                <p>Katie Sky</p>
+                            </div>
+                        </div>
+                        <div class="item" id="3">
+                            <div class="item-img">
+                                <img src="./assets/images/img4.png" alt="">
+                                <span class="material-symbols-outlined">
+                                    play_circle
+                                </span>
+                            </div>
+                            <div class="name-song">
+                                <h4>Unstoppable</h4>
+                                <p>Sia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-may-like">
+                    <h3>You may like</h3>
+                    <div class="main">
+                        <div class="item" id="0">
+                            <div class="img-song"><img src="./assets//images/img1.png" alt=""></div>
+                            <div class="name-song">
+                                <h4>OK</h4>
+                                <p>Binz</p>
+                            </div>
+                            <div class="time">
+                                <h4>4:30</h4>
+                                <p>2020</p>
+                            </div>
+                        </div>
+                        <div class="item" id="1">
+                            <div class="img-song"><img src="./assets//images/img2.png" alt=""></div>
+                            <div class="name-song">
+                                <h4>Waiting For Love</h4>
+                                <p>Avicii</p>
+                            </div>
+                            <div class="time">
+                                <h4>4:30</h4>
+                                <p>2015</p>
+                            </div>
+                        </div>
+                        <div class="item" id="2">
+                            <div class="img-song"><img src="./assets//images/img3.png" alt=""></div>
+                            <div class="name-song">
+                                <h4>Monsters</h4>
+                                <p>Katie Sky</p>
+                            </div>
+                            <div class="time">
+                                <h4>4:30</h4>
+                                <p>2019</p>
+                            </div>
+                        </div>
+                        <div class="item" id="3">
+                            <div class="img-song"><img src="./assets//images/img4.png" alt=""></div>
+                            <div class="name-song">
+                                <h4>Unstoppable</h4>
+                                <p>Sia</p>
+                            </div>
+                            <div class="time">
+                                <h4>4:30</h4>
+                                <p>2021</p>
+                            </div>
+                        </div>
+                        <div class="item" id="4">
+                            <div class="img-song"><img src="./assets//images/img5.png" alt="">
+                            </div>
+                            <div class="name-song">
+                                <h4>Despacito</h4>
+                                <p>Luis Fonsi</p>
+                            </div>
+                            <div class="time">
+                                <h4>4:41</h4>
+                                <p>2017</p>
+                            </div>
+                        </div>
+                        <div class="item" id="5">
+                            <div class="img-song"><img src="./assets/images/img6.png" alt=""></div>
+                            <div class="name-song">
+                                <h4>Natural</h4>
+                                <p>Imagine Dragons</p>
+                            </div>
+                            <div class="time">
+                                <h4>3:09</h4>
+                                <p>2018</p>
+                            </div>
+                        </div>
+                        <div class="item" id="6">
+                            <div class="img-song"><img src="./assets/images/img7.png" alt="">
+                            </div>
+                            <div class="name-song">
+                                <h4>Believer</h4>
+                                <p>Imagine Dragons</p>
+                            </div>
+                            <div class="time">
+                                <h4>3:36</h4>
+                                <p>2017</p>
+                            </div>
+                        </div>
+                        <div class="item" id="7">
+                            <div class="img-song"><img src="./assets/images/img8.png" alt=""></div>
+                            <div class="name-song">
+                                <h4>See You Again</h4>
+                                <p>Wiz Khalifa </p>
+                            </div>
+                            <div class="time">
+                                <h4>3:57</h4>
+                                <p>2015</p>
+                            </div>
+                        </div>
+                        <div class="item" id="8">
+                            <div class="img-song"><img src="./assets/images/img9.png" alt=""></div>
+                            <div class="name-song">
+                                <h4>Faded</h4>
+                                <p>Alan Walker</p>
+                            </div>
+                            <div class="time">
+                                <h4>3:32</h4>
+                                <p>2015</p>
+                            </div>
+                        </div>
+                        <div class="item" id="9">
+                            <div class="img-song"><img src="./assets/images/img10.png" alt=""></div>
+                            <div class="name-song">
+                                <h4>Don't Let Me Down</h4>
+                                <p>The Chainsmokers </p>
+                            </div>
+                            <div class="time">
+                                <h4>3:37</h4>
+                                <p>2016</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="music-play">
+            <h3>Now playing</h3>
+            <div class="music-images">
+                <img src="https://haycafe.vn/wp-content/uploads/2022/03/Avatar-am-nhac.jpg" alt="" class="music-img">
+            </div>
+            <div class="music-name">
+                <span class="material-symbols-outlined">
+                    add
+                </span>
+                <div id="name">
+                    <h4>Please choose a song!</h4>
+                    <p></p>
+                </div>
+                <span class="material-symbols-outlined">
+                    favorite
+                </span>
+            </div>
+            <div class="timer">
+                <p class="duration">2:10</p>
+                <p class="remaining">-3:10</p>
+            </div>
+            <div class="range-bar">
+                <input type="range" name="range" class="range">
+                <progress id="progress-bar"></progress>
+            </div>
+            <div class="controls">
+                <div class="task">
+                    <span class="material-symbols-outlined mix">
+                        shuffle
+                    </span>
+                    <span class="material-symbols-outlined play-back">
+                        skip_previous
+                    </span>
+                    <div class="play">
+                        <span class="material-symbols-outlined played">
+                            play_arrow
+                        </span>
+                    </div>
+                    <audio src="" id="song"></audio>
+                    <span class="material-symbols-outlined play-next">
+                        skip_next
+                    </span>
+                    <span class="material-symbols-outlined repeat">
+                        repeat
+                    </span>
+                </div>
+                <div class=" volume">
+                    <span class="material-symbols-outlined volume_down">
+                        volume_down
+                    </span>
+                    <input type="range" id="volume-music" min="0" max="100" value="100">
+                    <progress min="0" max="100" value="100" id="progress"></progress>
+                    <span class="material-symbols-outlined volume_up">
+                        volume_up
+                    </span>
+                    <p class="volume-text">100%</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-right">
+            <h2>Track list</h2>
+            <span class="material-symbols-outlined mix">
+                shuffle
+            </span>
+            <span class="material-symbols-outlined repeat">
+                repeat
+            </span>
+            <h3>Playing next</h3>
+            <div class="list">
+                <div class="item" id="0">
+                    <span class="material-symbols-outlined move">
+                        filter_list
+                    </span>
+                    <div class="img-song"><img src="./assets//images/img1.png" alt=""></div>
+                    <div class="name-song">
+                        <h4>OK</h4>
+                        <p>Binz</p>
+                    </div>
+                    <div class="time">
+                        <h4>4:30</h4>
+                        <p>2020</p>
+                    </div>
+                </div>
+                <div class="item" id="1">
+                    <span class="material-symbols-outlined move">
+                        filter_list
+                    </span>
+                    <div class="img-song"><img src="./assets//images/img2.png" alt=""></div>
+                    <div class="name-song">
+                        <h4>Waiting For Love</h4>
+                        <p>Avicii</p>
+                    </div>
+                    <div class="time">
+                        <h4>4:30</h4>
+                        <p>2015</p>
+                    </div>
+                </div>
+                <div class="item" id="2">
+                    <span class="material-symbols-outlined move">
+                        filter_list
+                    </span>
+                    <div class="img-song"><img src="./assets//images/img3.png" alt=""></div>
+                    <div class="name-song">
+                        <h4>Monsters</h4>
+                        <p>Katie Sky</p>
+                    </div>
+                    <div class="time">
+                        <h4>4:30</h4>
+                        <p>2019</p>
+                    </div>
+                </div>
+                <div class="item" id="3">
+                    <span class="material-symbols-outlined move">
+                        filter_list
+                    </span>
+                    <div class="img-song"><img src="./assets//images/img4.png" alt=""></div>
+                    <div class="name-song">
+                        <h4>Unstoppable</h4>
+                        <p>Sia</p>
+                    </div>
+                    <div class="time">
+                        <h4>4:30</h4>
+                        <p>2021</p>
+                    </div>
+                </div>
+                <div class="item" id="4">
+                    <span class="material-symbols-outlined move">
+                        filter_list
+                    </span>
+                    <div class="img-song"><img
+                            src="https://cdnimg.vietnamplus.vn/uploaded/tngztn/2017_07_07/despacito.jpg" alt="">
+                    </div>
+                    <div class="name-song">
+                        <h4>Despacito</h4>
+                        <p>Luis Fonsi</p>
+                    </div>
+                    <div class="time">
+                        <h4>4:41</h4>
+                        <p>2017</p>
+                    </div>
+                </div>
+                <div class="item" id="5">
+                    <span class="material-symbols-outlined move">
+                        filter_list
+                    </span>
+                    <div class="img-song"><img src="./assets/images/img6.png" alt=""></div>
+                    <div class="name-song">
+                        <h4>Natural</h4>
+                        <p>Imagine Dragons</p>
+                    </div>
+                    <div class="time">
+                        <h4>3:09</h4>
+                        <p>2018</p>
+                    </div>
+                </div>
+                <div class="item" id="6">
+                    <span class="material-symbols-outlined move">
+                        filter_list
+                    </span>
+                    <div class="img-song"><img src="./assets/images/img7.png" alt="">
+                    </div>
+                    <div class="name-song">
+                        <h4>Believer</h4>
+                        <p>Imagine Dragons</p>
+                    </div>
+                    <div class="time">
+                        <h4>3:36</h4>
+                        <p>2017</p>
+                    </div>
+                </div>
+                <div class="item" id="7">
+                    <span class="material-symbols-outlined move">
+                        filter_list
+                    </span>
+                    <div class="img-song"><img src="./assets/images/img8.png" alt="">
+                    </div>
+                    <div class="name-song">
+                        <h4>See You Again</h4>
+                        <p>Wiz Khalifa </p>
+                    </div>
+                    <div class="time">
+                        <h4>3:57</h4>
+                        <p>2015</p>
+                    </div>
+                </div>
+                <div class="item" id="8">
+                    <span class="material-symbols-outlined move">
+                        filter_list
+                    </span>
+                    <div class="img-song"><img src="./assets/images/img9.png" alt=""></div>
+                    <div class="name-song">
+                        <h4>Faded</h4>
+                        <p>Alan Walker</p>
+                    </div>
+                    <div class="time">
+                        <h4>3:32</h4>
+                        <p>2015</p>
+                    </div>
+                </div>
+                <div class="item" id="9">
+                    <span class="material-symbols-outlined move">
+                        filter_list
+                    </span>
+                    <div class="img-song"><img src="./assets/images/img10.png" alt=""></div>
+                    <div class="name-song">
+                        <h4>Don't Let Me Down</h4>
+                        <p>The Chainsmokers </p>
+                    </div>
+                    <div class="time">
+                        <h4>3:37</h4>
+                        <p>2016</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="material-symbols-outlined move">
+                        filter_list
+                    </span>
+                    <div class="img-song"><img
+                            src="https://theinnonthetay.co.uk/wp-content/uploads/2022/02/istockphoto-1221240925-612x612-1.jpg"
+                            alt=""></div>
+                    <div class="name-song">
+                        <h4>................</h4>
+                        <p>............ </p>
+                    </div>
+                    <div class="time">
+                        <h4>00:00</h4>
+                        <p>0000</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="material-symbols-outlined move">
+                        filter_list
+                    </span>
+                    <div class="img-song"><img
+                            src="https://theinnonthetay.co.uk/wp-content/uploads/2022/02/istockphoto-1221240925-612x612-1.jpg"
+                            alt=""></div>
+                    <div class="name-song">
+                        <h4>................</h4>
+                        <p>............ </p>
+                    </div>
+                    <div class="time">
+                        <h4>00:00</h4>
+                        <p>0000</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="material-symbols-outlined move">
+                        filter_list
+                    </span>
+                    <div class="img-song"><img
+                            src="https://theinnonthetay.co.uk/wp-content/uploads/2022/02/istockphoto-1221240925-612x612-1.jpg"
+                            alt=""></div>
+                    <div class="name-song">
+                        <h4>................</h4>
+                        <p>............ </p>
+                    </div>
+                    <div class="time">
+                        <h4>00:00</h4>
+                        <p>0000</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="material-symbols-outlined move">
+                        filter_list
+                    </span>
+                    <div class="img-song"><img
+                            src="https://theinnonthetay.co.uk/wp-content/uploads/2022/02/istockphoto-1221240925-612x612-1.jpg"
+                            alt=""></div>
+                    <div class="name-song">
+                        <h4>................</h4>
+                        <p>............ </p>
+                    </div>
+                    <div class="time">
+                        <h4>00:00</h4>
+                        <p>0000</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="material-symbols-outlined move">
+                        filter_list
+                    </span>
+                    <div class="img-song"><img
+                            src="https://theinnonthetay.co.uk/wp-content/uploads/2022/02/istockphoto-1221240925-612x612-1.jpg"
+                            alt=""></div>
+                    <div class="name-song">
+                        <h4>................</h4>
+                        <p>............ </p>
+                    </div>
+                    <div class="time">
+                        <h4>00:00</h4>
+                        <p>0000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
